@@ -24,6 +24,7 @@ This project focuses on classifying images of Pokémon species using deep learni
 
 ## Key Steps:
 
+
 1. **Dataset Preparation:**
    - Organized dataset into training, validation, and test sets.
    - Used TensorFlow’s `image_dataset_from_directory` for efficient data loading.
@@ -32,7 +33,7 @@ This project focuses on classifying images of Pokémon species using deep learni
    - Applied various augmentation techniques to enhance dataset variability and improve model generalization.
 
 3. **Model Architecture:**
-   - **EfficientNetV2B0** pre-trained model used for feature extraction.
+   - **EfficientNetV2B1** pre-trained model used for feature extraction.
    - Frozen base model initially for transfer learning, followed by fine-tuning.
    - **Global Average Pooling** layer used to reduce overfitting.
 
