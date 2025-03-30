@@ -20,7 +20,7 @@ Suggested Use Cases
 
 # Pokémon Image Classification with Deep Learning
 
-This project focuses on classifying images of Pokémon species using deep learning techniques, leveraging the **EfficientNetV2B0** architecture for transfer learning. The dataset consists of 1,000 Pokémon species, with approximately 40 images per species, resized to 128x128 pixels and stored as PNG files.
+This project focuses on classifying images of Pokémon species using deep learning techniques, leveraging the **EfficientNetV2B1** architecture for transfer learning. The dataset consists of 1,000 Pokémon species, with approximately 40 images per species, resized to 128x128 pixels and stored as PNG files.
 
 ## Key Steps:
 
