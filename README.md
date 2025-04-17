@@ -35,7 +35,7 @@ This project focuses on classifying images of Pokémon species using deep learni
 3. **Model Architecture:**
    - **EfficientNetV2B1** pre-trained model used for feature extraction.
    - Frozen base model initially for transfer learning, followed by fine-tuning.
-   - **Global Average Pooling** layer used to reduce overfitting.
+   - **Global Average Pooling** layer used to compose feature vector.
 
 4. **Model Training:**
    - Compiled with **categorical cross-entropy** loss and the **Adam optimizer**.
